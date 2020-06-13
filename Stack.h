@@ -20,6 +20,8 @@ public:
 
 	static Stack sum_large_numbers(Stack x, Stack y);
 
+	Stack operator+(const Stack& stack);
+
 	struct stack_empty_exception : std::exception {
 		const char* what() const noexcept override { return "Stack is empty."; }
 	};

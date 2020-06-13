@@ -96,3 +96,7 @@ void Stack::print_number() {
 	}
 	std::cout << std::endl;
 }
+
+Stack Stack::operator+(const Stack &stack) {
+	return Stack::sum_large_numbers(*this, stack);
+}

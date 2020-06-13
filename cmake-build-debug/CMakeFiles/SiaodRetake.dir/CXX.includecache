@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/selamba/CLionProjects/SiaodRetake/Stack.cpp
+/home/selamba/CLionProjects/SiaodRetake/Stack.h
+forward_list
+-
+
+/home/selamba/CLionProjects/SiaodRetake/main.cpp
 Stack.h
 /home/selamba/CLionProjects/SiaodRetake/Stack.h
 iostream
--
-cmath
--
-
-/home/selamba/CLionProjects/SiaodRetake/Stack.h
-forward_list
 -
 

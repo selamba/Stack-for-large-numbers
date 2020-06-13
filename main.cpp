@@ -13,7 +13,7 @@ int main ()
 
 	Stack num3;
 	std::cout << num3.empty() << std::endl;
-	num3 = Stack::sum_large_numbers(num2, num1);
+	num3 = num1 + num2;
 	num3.print_number();
 	std::cout << num3.empty() << std::endl;
 
